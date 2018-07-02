@@ -8,6 +8,7 @@ def prime?(int)
   end
   
   arr.each do |num|
+    puts num
     if num == 0
       return false       
     end
