@@ -1,3 +1,3 @@
-def prime?(array)
+def prime?(int)
   
 end
