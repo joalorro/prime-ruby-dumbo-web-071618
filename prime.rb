@@ -22,9 +22,3 @@ def prime?(int)
   return true 
   
 end
-
-for m in -50 .. 50 do
-  if prime?(m) == true
-    puts "#{m} is prime"
-  end
-end
