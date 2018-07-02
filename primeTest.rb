@@ -1,4 +1,4 @@
-def prime?(Array)
+def prime?(array)
   newArr = Array.new
   range = 2 .. Math.sqrt(int.abs)
   
