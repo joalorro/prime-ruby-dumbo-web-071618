@@ -2,6 +2,6 @@ def prime?(int)
   
 end
 
-num1 = 25
+num1 = -25
 
-puts Math.sqrt(num1).abs 
+puts Math.sqrt(num1.abs)
