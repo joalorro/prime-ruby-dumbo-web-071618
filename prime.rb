@@ -18,3 +18,5 @@ def prime?(int)
   return true 
   
 end
+
+prime?(15)
