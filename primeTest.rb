@@ -3,7 +3,7 @@ def prime?(array)
   range = 2 .. Math.sqrt(int.abs)
   
   for m in range do
-    newArr.push (int % m )
+    newArr.push (array % m )
   end
   
   newArr.each do |num|
