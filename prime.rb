@@ -17,4 +17,4 @@ def prime?(int)
   
 end
 
-prime?(29)
+puts prime?(29)
