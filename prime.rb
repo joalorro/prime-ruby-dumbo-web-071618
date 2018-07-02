@@ -1,12 +1,14 @@
 require "pry"
 
 def prime?(int)
-  arr = []
+  arr1 = []
+  arr2 = [] 
   range = 2 .. Math.sqrt(int.abs)
-  puts range 
   
   for m in range do
-    arr.push (m % int)
+    arr2.push m
+    puts arr2
+    arr1.push (m % int)
   end
   
   arr.each do |num|
