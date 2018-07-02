@@ -1,6 +1,6 @@
 def prime?(array)
   newArr = Array.new
-  range = 2 .. Math.sqrt(int.abs)
+  range = 2 .. Math.sqrt(array.abs)
   
   for m in range do
     newArr.push (array % m )
