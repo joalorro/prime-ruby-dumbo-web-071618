@@ -18,4 +18,4 @@ def prime?(int)
   
 end
 
-puts prime?(15)
+puts prime?(-15)
