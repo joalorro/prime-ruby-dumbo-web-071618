@@ -11,7 +11,7 @@ def prime?(int)
     arr1.push (m % int)
   end
   
-  arr.each do |num|
+  arr1.each do |num|
     if num == 0
       return false       
     end
