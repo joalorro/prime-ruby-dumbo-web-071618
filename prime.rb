@@ -8,6 +8,7 @@ def prime?(int)
   for m in range do
     arr2.push m
     puts arr2
+    
     arr1.push (m % int)
   end
   
