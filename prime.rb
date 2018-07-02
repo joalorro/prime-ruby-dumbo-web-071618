@@ -4,4 +4,4 @@ end
 
 num1 = 25
 
-puts Math.sqrt(num1)
+puts Math.sqrt(num1).abs 
