@@ -18,4 +18,4 @@ def prime?(int)
   
 end
 
-prime?(7)
+prime?(29)
