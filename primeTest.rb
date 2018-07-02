@@ -16,4 +16,4 @@ def prime?(array)
   
 end
 
-prime?(27)
+puts prime?(27)
