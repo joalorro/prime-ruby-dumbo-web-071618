@@ -4,6 +4,7 @@ def prime?(int)
   arr = []
   
   for m in 2 .. Math.sqrt(int.abs) do
+    puts m 
     arr.push (m % int)
   end
   
