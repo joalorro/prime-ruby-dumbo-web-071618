@@ -1,6 +1,11 @@
 require "pry"
 
 def prime?(int)
+  
+  if int == -1 || int == 0 || int == 1
+    return false
+  end
+  
   arr = Array.new
   range = 2 .. Math.sqrt(int.abs)
   
