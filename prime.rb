@@ -2,9 +2,10 @@ require "pry"
 
 def prime?(int)
   arr = []
+  range = 2 .. Math.sqrt(int.abs)
+  puts range 
   
-  for m in 2 .. Math.sqrt(int.abs) do
-    puts Math.sqrt(int.abs)
+  for m in range do
     arr.push (m % int)
   end
   
