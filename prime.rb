@@ -1,3 +1,4 @@
 def prime?(int)
-  for 
+  for m in 2 .. sqrt(int)
+  
 end
