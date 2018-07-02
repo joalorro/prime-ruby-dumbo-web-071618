@@ -19,9 +19,7 @@ def prime?(int)
 end
 
 for m in -50 .. 50 do
-  if prime?(m) == false
-    puts "#{m} is not prime"
-  else 
+  if prime?(m) == true
     puts "#{m} is prime"
   end
 end
