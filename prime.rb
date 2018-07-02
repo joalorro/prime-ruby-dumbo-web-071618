@@ -19,5 +19,9 @@ def prime?(int)
 end
 
 for m in -10 .. 10 do
-  prime?(m) == false ? puts "#{m} is not prime" : puts "#{m}? is prime"
+  if prime?(m) == false
+    puts "#{m} is not prime"
+  else 
+    puts "#{m} is prime"
+  end
 end
