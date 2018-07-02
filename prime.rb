@@ -18,4 +18,6 @@ def prime?(int)
   
 end
 
-puts prime?(30)
+for m in -10 .. 10 do
+  prime?(m) == false ? "#{m} is not prime" : "#{m}? is prime"
+end
