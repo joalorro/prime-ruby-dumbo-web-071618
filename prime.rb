@@ -7,8 +7,6 @@ def prime?(int)
     arr.push (m % int)
   end
   
-  binding.pry
-  
   arr.each do |num|
     if num == 0
       return false       
