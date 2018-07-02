@@ -1,8 +1,8 @@
-primes? = []
+nums = []
 
 for m in -30..30 do
-  primes?.push m 
-  puts "Is the # #{primes?.first} a prime number?"
+  nums.push m 
+  puts "Is the # #{nums.first} a prime number?"
 end
 
 def prime?(array)
@@ -27,4 +27,4 @@ def prime?(array)
   
 end
 
-prime? primes?
+prime? nums
